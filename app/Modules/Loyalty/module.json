@@ -1,0 +1,21 @@
+{
+  "name": "Loyalty",
+  "key": "loyalty",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "loyalty.view",
+    "loyalty.create",
+    "loyalty.update",
+    "loyalty.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Loyalty",
+      "icon": "heroicon-o-cube",
+      "permission": "loyalty.view"
+    }
+  ]
+}

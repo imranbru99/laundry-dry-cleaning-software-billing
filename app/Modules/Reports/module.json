@@ -1,0 +1,21 @@
+{
+  "name": "Reports",
+  "key": "reports",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "reports.view",
+    "reports.create",
+    "reports.update",
+    "reports.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Reports",
+      "icon": "heroicon-o-cube",
+      "permission": "reports.view"
+    }
+  ]
+}

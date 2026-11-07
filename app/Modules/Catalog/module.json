@@ -1,0 +1,21 @@
+{
+  "name": "Catalog",
+  "key": "catalog",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "catalog.view",
+    "catalog.create",
+    "catalog.update",
+    "catalog.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Catalog",
+      "icon": "heroicon-o-cube",
+      "permission": "catalog.view"
+    }
+  ]
+}

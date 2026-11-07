@@ -1,0 +1,21 @@
+{
+  "name": "Production",
+  "key": "production",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "production.view",
+    "production.create",
+    "production.update",
+    "production.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Production",
+      "icon": "heroicon-o-cube",
+      "permission": "production.view"
+    }
+  ]
+}

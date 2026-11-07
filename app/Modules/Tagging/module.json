@@ -1,0 +1,21 @@
+{
+  "name": "Tagging",
+  "key": "tagging",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "tagging.view",
+    "tagging.create",
+    "tagging.update",
+    "tagging.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Tagging",
+      "icon": "heroicon-o-cube",
+      "permission": "tagging.view"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Integrations",
+  "key": "integrations",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "integrations.view",
+    "integrations.create",
+    "integrations.update",
+    "integrations.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Integrations",
+      "icon": "heroicon-o-cube",
+      "permission": "integrations.view"
+    }
+  ]
+}

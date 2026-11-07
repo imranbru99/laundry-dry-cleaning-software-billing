@@ -1,0 +1,21 @@
+{
+  "name": "Communication",
+  "key": "communication",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "communication.view",
+    "communication.create",
+    "communication.update",
+    "communication.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Communication",
+      "icon": "heroicon-o-cube",
+      "permission": "communication.view"
+    }
+  ]
+}

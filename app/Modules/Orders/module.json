@@ -1,0 +1,21 @@
+{
+  "name": "Orders",
+  "key": "orders",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "orders.view",
+    "orders.create",
+    "orders.update",
+    "orders.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Orders",
+      "icon": "heroicon-o-cube",
+      "permission": "orders.view"
+    }
+  ]
+}

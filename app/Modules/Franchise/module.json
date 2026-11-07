@@ -1,0 +1,21 @@
+{
+  "name": "Franchise",
+  "key": "franchise",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "franchise.view",
+    "franchise.create",
+    "franchise.update",
+    "franchise.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Franchise",
+      "icon": "heroicon-o-cube",
+      "permission": "franchise.view"
+    }
+  ]
+}

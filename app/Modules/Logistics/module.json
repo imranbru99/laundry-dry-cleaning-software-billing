@@ -1,0 +1,21 @@
+{
+  "name": "Logistics",
+  "key": "logistics",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "logistics.view",
+    "logistics.create",
+    "logistics.update",
+    "logistics.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Logistics",
+      "icon": "heroicon-o-cube",
+      "permission": "logistics.view"
+    }
+  ]
+}

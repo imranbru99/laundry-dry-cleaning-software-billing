@@ -1,0 +1,21 @@
+{
+  "name": "B2b",
+  "key": "b2b",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "b2b.view",
+    "b2b.create",
+    "b2b.update",
+    "b2b.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "B2b",
+      "icon": "heroicon-o-cube",
+      "permission": "b2b.view"
+    }
+  ]
+}

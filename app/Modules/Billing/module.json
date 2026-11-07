@@ -1,0 +1,21 @@
+{
+  "name": "Billing",
+  "key": "billing",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "billing.view",
+    "billing.create",
+    "billing.update",
+    "billing.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Billing",
+      "icon": "heroicon-o-cube",
+      "permission": "billing.view"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Support",
+  "key": "support",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "support.view",
+    "support.create",
+    "support.update",
+    "support.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Support",
+      "icon": "heroicon-o-cube",
+      "permission": "support.view"
+    }
+  ]
+}

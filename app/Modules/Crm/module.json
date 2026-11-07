@@ -1,0 +1,21 @@
+{
+  "name": "Crm",
+  "key": "crm",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "crm.view",
+    "crm.create",
+    "crm.update",
+    "crm.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Crm",
+      "icon": "heroicon-o-cube",
+      "permission": "crm.view"
+    }
+  ]
+}

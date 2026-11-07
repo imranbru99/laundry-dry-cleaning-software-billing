@@ -1,0 +1,21 @@
+{
+  "name": "Inventory",
+  "key": "inventory",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "inventory.view",
+    "inventory.create",
+    "inventory.update",
+    "inventory.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Inventory",
+      "icon": "heroicon-o-cube",
+      "permission": "inventory.view"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Subscriptions",
+  "key": "subscriptions",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "subscriptions.view",
+    "subscriptions.create",
+    "subscriptions.update",
+    "subscriptions.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Subscriptions",
+      "icon": "heroicon-o-cube",
+      "permission": "subscriptions.view"
+    }
+  ]
+}

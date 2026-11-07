@@ -1,0 +1,19 @@
+{
+  "name": "Core",
+  "key": "core",
+  "dependencies": [],
+  "permissions": [
+    "core.view",
+    "core.create",
+    "core.update",
+    "core.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Core",
+      "icon": "heroicon-o-cube",
+      "permission": "core.view"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Accounting",
+  "key": "accounting",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "accounting.view",
+    "accounting.create",
+    "accounting.update",
+    "accounting.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Accounting",
+      "icon": "heroicon-o-cube",
+      "permission": "accounting.view"
+    }
+  ]
+}

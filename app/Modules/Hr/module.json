@@ -1,0 +1,21 @@
+{
+  "name": "Hr",
+  "key": "hr",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "hr.view",
+    "hr.create",
+    "hr.update",
+    "hr.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Hr",
+      "icon": "heroicon-o-cube",
+      "permission": "hr.view"
+    }
+  ]
+}

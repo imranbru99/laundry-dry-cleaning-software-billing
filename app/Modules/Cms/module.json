@@ -1,0 +1,21 @@
+{
+  "name": "Cms",
+  "key": "cms",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "cms.view",
+    "cms.create",
+    "cms.update",
+    "cms.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "Cms",
+      "icon": "heroicon-o-cube",
+      "permission": "cms.view"
+    }
+  ]
+}

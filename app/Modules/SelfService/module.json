@@ -1,0 +1,21 @@
+{
+  "name": "SelfService",
+  "key": "self_service",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "self_service.view",
+    "self_service.create",
+    "self_service.update",
+    "self_service.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "SelfService",
+      "icon": "heroicon-o-cube",
+      "permission": "self_service.view"
+    }
+  ]
+}

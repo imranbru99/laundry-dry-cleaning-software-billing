@@ -1,0 +1,21 @@
+{
+  "name": "AiSuite",
+  "key": "ai_suite",
+  "dependencies": [
+    "core"
+  ],
+  "permissions": [
+    "ai_suite.view",
+    "ai_suite.create",
+    "ai_suite.update",
+    "ai_suite.delete"
+  ],
+  "settings_schema": {},
+  "menu": [
+    {
+      "label": "AiSuite",
+      "icon": "heroicon-o-cube",
+      "permission": "ai_suite.view"
+    }
+  ]
+}
